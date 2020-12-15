@@ -1,0 +1,7 @@
+C:\Users\Stagiaire\Documents\poo 1\point\point\bin\Debug\point.exe.config
+C:\Users\Stagiaire\Documents\poo 1\point\point\bin\Debug\point.exe
+C:\Users\Stagiaire\Documents\poo 1\point\point\bin\Debug\point.pdb
+C:\Users\Stagiaire\Documents\poo 1\point\point\obj\Debug\point.csprojAssemblyReference.cache
+C:\Users\Stagiaire\Documents\poo 1\point\point\obj\Debug\point.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\poo 1\point\point\obj\Debug\point.exe
+C:\Users\Stagiaire\Documents\poo 1\point\point\obj\Debug\point.pdb
