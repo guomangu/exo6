@@ -5,3 +5,10 @@ C:\Users\Stagiaire\Documents\poo 1\fraction\fraction\obj\Debug\fraction.csprojAs
 C:\Users\Stagiaire\Documents\poo 1\fraction\fraction\obj\Debug\fraction.csproj.CoreCompileInputs.cache
 C:\Users\Stagiaire\Documents\poo 1\fraction\fraction\obj\Debug\fraction.exe
 C:\Users\Stagiaire\Documents\poo 1\fraction\fraction\obj\Debug\fraction.pdb
+C:\Users\aluli\OneDrive\Documents\git\poo2\fraction\fraction\bin\Debug\fraction.exe.config
+C:\Users\aluli\OneDrive\Documents\git\poo2\fraction\fraction\bin\Debug\fraction.exe
+C:\Users\aluli\OneDrive\Documents\git\poo2\fraction\fraction\bin\Debug\fraction.pdb
+C:\Users\aluli\OneDrive\Documents\git\poo2\fraction\fraction\obj\Debug\fraction.csprojAssemblyReference.cache
+C:\Users\aluli\OneDrive\Documents\git\poo2\fraction\fraction\obj\Debug\fraction.csproj.CoreCompileInputs.cache
+C:\Users\aluli\OneDrive\Documents\git\poo2\fraction\fraction\obj\Debug\fraction.exe
+C:\Users\aluli\OneDrive\Documents\git\poo2\fraction\fraction\obj\Debug\fraction.pdb

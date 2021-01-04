@@ -37,6 +37,21 @@ namespace fraction
             int result3=f6.GetPgcd();
             f6.Reduire(result3);
             
+            Fraction f7 = f6.Addition(f5);
+            f7.ToString();
+            
+            int result4=f7.GetPgcd();
+            f7.Reduire(result4);
+            f7.ToString();
+
+            Fraction f8 = f6.Soustraction(f5);
+            f8.ToString();
+
+            Fraction f9 = f6.Multiplication(f5);
+            f9.ToString();
+
+            Fraction f10 = f6.Division(f5);
+            f10.ToString();
 
             Console.ReadKey();
         }
@@ -116,7 +131,7 @@ namespace fraction
             }
         }
 
-        public int GetPgcd()
+        /*public int GetPgcd()
         {
             int a = 0;
             int b = 0;
@@ -140,6 +155,7 @@ namespace fraction
                 a = b;
                 result = b;
                 b = c;
+               
 
                 if (b==0)
                 {
@@ -147,7 +163,27 @@ namespace fraction
                     lol = false;
                 }
             }
+            Console.WriteLine("lol");
             return result;
+        }*/
+
+        public int GetPgcd() { 
+            int a = this.UNnum;
+            int b = this.UNdeno;
+            int pgcd=-1;
+            if ( a!=0 && b!=0) { 
+                if ( a<0 ) a =-a; 
+                if ( b<0 ) b =-b; 
+                while ( a!=b ) {
+                    if ( a<b ) {
+                        b = b-a; 
+                    } else {
+                        a =a-b; 
+                    }
+                    pgcd = a; 
+                }
+            } 
+            return pgcd; 
         }
 
         public void Reduire(int result3)
@@ -155,8 +191,39 @@ namespace fraction
             this.UNnum = this.UNnum / result3;
             this.UNdeno = this.UNdeno / result3;
 
-            Console.WriteLine(this.UNnum+" sur "+ this.UNdeno);
+        }
 
+        public Fraction Addition(Fraction _fract){
+            int nume = this.UNnum * _fract.UNdeno + _fract.UNnum * this.UNdeno;
+            int denom = this.deno * _fract.deno;
+
+            return new Fraction(nume,denom);
+        }
+
+        public Fraction Soustraction(Fraction _fract){
+            int nume = this.UNnum * _fract.UNdeno - _fract.UNnum * this.UNdeno;
+            int denom = this.deno * _fract.deno;
+
+            return new Fraction(nume,denom);
+        }
+
+        public Fraction Multiplication(Fraction _fract){
+            int nume = this.UNnum * _fract.UNnum;
+            int denom = this.deno * _fract.deno;
+
+            return new Fraction(nume,denom);
+        }
+
+        public Fraction Division(Fraction _fract){
+            int nume = this.num * _fract.deno;
+            int denom = this.deno * _fract.num;
+
+            return new Fraction(nume,denom);
+        }
+
+
+        public void ToString(){
+            Console.WriteLine(this.UNnum+" / "+ this.UNdeno);
         }
     }
 }
