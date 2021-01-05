@@ -5,3 +5,10 @@ C:\Users\Stagiaire\Documents\poo 1\comptecancaire\comptecancaire\bin\Debug\compt
 C:\Users\Stagiaire\Documents\poo 1\comptecancaire\comptecancaire\bin\Debug\comptecancaire.pdb
 C:\Users\Stagiaire\Documents\poo 1\comptecancaire\comptecancaire\obj\Debug\comptecancaire.exe
 C:\Users\Stagiaire\Documents\poo 1\comptecancaire\comptecancaire\obj\Debug\comptecancaire.pdb
+C:\Users\aluli\OneDrive\Documents\git\poo2\comptecancaire\comptecancaire\obj\Debug\comptecancaire.csprojAssemblyReference.cache
+C:\Users\aluli\OneDrive\Documents\git\poo2\comptecancaire\comptecancaire\obj\Debug\comptecancaire.csproj.CoreCompileInputs.cache
+C:\Users\aluli\OneDrive\Documents\git\poo2\comptecancaire\comptecancaire\obj\Debug\comptecancaire.exe
+C:\Users\aluli\OneDrive\Documents\git\poo2\comptecancaire\comptecancaire\obj\Debug\comptecancaire.pdb
+C:\Users\aluli\OneDrive\Documents\git\poo2\comptecancaire\comptecancaire\bin\Debug\comptecancaire.exe.config
+C:\Users\aluli\OneDrive\Documents\git\poo2\comptecancaire\comptecancaire\bin\Debug\comptecancaire.exe
+C:\Users\aluli\OneDrive\Documents\git\poo2\comptecancaire\comptecancaire\bin\Debug\comptecancaire.pdb
